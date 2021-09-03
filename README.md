@@ -17,14 +17,21 @@ I have taken the time to change private information that is not for public consu
 
 The following files are included:
 
-iot1.sql - schema for building the necessary PostgreSQL tables, indexes, etc.
-run-bro.php - Step 1 - process pcaps with Zeek (it was still called Bro when I began this project) - output files to a directory
-run-tshark.php - Step 2 - process pcaps with Tshark - output file to the same directory as Zeek did
-push-packets.php - Step 3 - push packets into PostgreSQL
-push-sessions.php - Step 4 - push sessions into PostgreSQL
-tag-packets.php - Step 5 - reconcile packets with sessions
-calc-features.php - Step 6 - calculate features needed for training models by means of machine learning
-project-settings.php - used to set project-wide data
+- iot1.sql - schema for building the necessary PostgreSQL tables, indexes, etc.
+
+- run-bro.php - Step 1 - process pcaps with Zeek (it was still called Bro when I began this project) - output files to a directory
+
+- run-tshark.php - Step 2 - process pcaps with Tshark - output file to the same directory as Zeek did
+
+- push-packets.php - Step 3 - push packets into PostgreSQL
+
+- push-sessions.php - Step 4 - push sessions into PostgreSQL
+
+- tag-packets.php - Step 5 - reconcile packets with sessions
+
+- calc-features.php - Step 6 - calculate features needed for training models by means of machine learning
+
+- project-settings.php - used to set project-wide data
 
 From here, the poor souls that have made it this far will have to output the sessions table into whatever format they need for their choice of machine learning platform.  If you are motivated to do this, you should probably know what to do from this point.
 

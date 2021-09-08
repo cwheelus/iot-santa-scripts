@@ -33,6 +33,6 @@ The following files are included:
 
 •	project-settings.php - used to set project wide data
 
-From here, the poor souls that have made it this far will have to output the sessions table into whatever format they need for their choice of machine learning platform.  If you are crazy enough motivated to do this, you should probably know what to do from this point.
+From here, the poor souls that have made it this far will have to output the sessions table into whatever format they need for their choice of machine learning platform.  If you are c̵r̵a̵z̵y̵ ̵e̵n̵o̵u̵g̵h̵ motivated to do this, you should probably know what to do from this point.
 
 Feel free to reach out to me with questions, but it may take some time to get back to you as my schedule is pretty demanding these days, and I do not check this site very often.  It would be better to find me on Linkedin and drop me a line.
